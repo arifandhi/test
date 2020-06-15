@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Square {
-	private static Scanner sc;
+	//private static Scanner sc;
 	static void print_rectangle(int n, int m) 
     { 
         int i, j; 
@@ -29,11 +29,11 @@ public class Square {
 	public static void main(String[] args) 
 	{
 		int side;
-		sc = new Scanner(System.in);
+		//sc = new Scanner(System.in);
 		
 		//println(" Please Enter any Side of a Square : ");
 		//side = sc.nextInt()+2;
-		//def side = System.console().readLine 'Enter valid number'
+		def side = System.console().readLine 'Enter valid number'
 		if (side<1)
 		{
 		    println(" Please insert valid number");
