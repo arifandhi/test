@@ -31,11 +31,9 @@ public class Square {
 		int side;
 		sc = new Scanner(System.in);
 		
-		println(" Please Enter any Side of a Square : ");
-		side = sc.nextInt()+2;
-// 		def side = System.console().readLine 'Enter valid number'
-        // println "Hello $username"
-		side=5
+		//println(" Please Enter any Side of a Square : ");
+		//side = sc.nextInt()+2;
+		//def side = System.console().readLine 'Enter valid number'
 		if (side<1)
 		{
 		    println(" Please insert valid number");
